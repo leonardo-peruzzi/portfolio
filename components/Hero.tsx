@@ -1,6 +1,7 @@
 import { profile, specialties } from '@/data/profile';
 import Link from 'next/link';
 import Media from './Media';
+import profilePicture from '../public/images/profilePicture.jpg';
 
 export default function Hero() {
   return (
@@ -31,7 +32,11 @@ export default function Hero() {
           <div className="arch-wrap">
             <div className="arch">
               <Media
-                photo={profile.portrait}
+                photo={{
+                  src: profilePicture.src,
+                  alt: `${profile.firstName} ${profile.lastName}`,
+                  caption: `${profile.location}. ${profile.availability}.`,
+                }}
                 seed={7}
                 sizes="(min-width: 1024px) 420px, 80vw"
                 priority
