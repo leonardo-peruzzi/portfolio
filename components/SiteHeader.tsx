@@ -65,9 +65,9 @@ export default function SiteHeader({
         </nav>
 
         <div className="header__end">
-          <a className="btn btn--sm header__cv" href={cv} download>
+{/*           <a className="btn btn--sm header__cv" href={cv} download>
             Curriculum
-          </a>
+          </a> */}
           <button
             type="button"
             className="menu-btn"
