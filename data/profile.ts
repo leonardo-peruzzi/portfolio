@@ -55,7 +55,8 @@ export const profile = {
   email: 'leonardo.peruzzi.dev@gmail.com',
   phone: '+39 02 1234 5678',
   linkedin: 'https://linkedin.com/in/leonardo-peruzzi-43369123b',
-  cv: '/documenti/cv-leonardo-peruzzi.pdf',
+/*   cv: '/documenti/cv-leonardo-peruzzi.pdf', */
+  cv: '',
   portrait: {
     src: undefined,
     alt: 'Ritratto di Leonardo Peruzzi',
