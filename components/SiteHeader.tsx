@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
+import icon from "../app/icon.png";
 
 type Item = { href: string; label: string };
 
@@ -44,7 +46,7 @@ export default function SiteHeader({
     <>
       <header className="site-header">
         <Link href="/" className="brand" aria-label={`${name}, pagina iniziale`}>
-          <span className="brand__mark">{initials}</span>
+         <Image src={icon} alt="LP" className="brand__mark" priority />
           <span className="brand__name">{name}</span>
         </Link>
 

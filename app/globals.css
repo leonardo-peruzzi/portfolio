@@ -206,11 +206,11 @@ section[id] {
   place-items: center;
   width: 2.5rem;
   height: 2.5rem;
-  border: 1px solid var(--line-strong);
-  border-radius: 50%;
+/*   border: 1px solid var(--line-strong);
+  border-radius: 50%; */
   font-family: var(--display);
   font-size: 1rem;
-  color: var(--champagne);
+/*   color: var(--champagne); */
 }
 
 .brand__name {
