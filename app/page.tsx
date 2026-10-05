@@ -52,7 +52,7 @@ export default function HomePage() {
       <section className="section">
         <SectionHead
           title="Le esperienze."
-          lead="Ogni incarico ha una pagina dedicata con contesto, sfida, approccio, risultati, fotografie e documenti."
+          lead="Ogni incarico ha una pagina dedicata con contesto, sfida, approccio e risultati."
         />
         <ExperienceIndex items={experiences} />
         <p className="more">
